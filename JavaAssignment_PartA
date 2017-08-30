@@ -1,0 +1,25 @@
+function  printArray (a)
+
+{
+
+var len = a.length, i=0;
+
+if  (len = = 0)
+
+console.log (“Empty Array”);
+
+else
+
+{
+
+do
+
+{
+
+console.log (a[1]);
+
+} while (++i < len);
+
+}
+
+}
